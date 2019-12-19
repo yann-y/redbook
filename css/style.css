@@ -1,0 +1,230 @@
+@charset "utf-8";
+.floor{
+    top:0;
+    left:0;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51,51,51,0.05);
+    overflow:scroll;
+}
+*{
+    box-sizing: border-box;
+}
+a:link{
+    text-decoration: none;
+}
+.fheader{
+    background-image: url("../img/beijing.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.upheader{
+    margin: 30px;
+    font-size: small;
+    color: white;
+    overflow: hidden;
+}
+.logo{
+    margin-left:5%;
+    float: left;
+    position: absolute;
+}
+.search{
+    float: right;
+}
+.search dd{
+    float: left;
+    font-size: 20px;
+}
+.search dd i{
+    margin-left:5px ;
+    margin-top: 10px;
+    float: right;
+    width: 0;
+    height: 0;
+    border-width: 7px;
+    border-style: solid;
+    border-color:#FFFFFF transparent transparent transparent;
+}
+.lowheader {
+    margin: auto;
+    padding-top: 150px ;
+}
+.lowheader .title{
+    left: 50%;
+    top: 40%;
+    max-width: 100%;
+    z-index: 1;
+    font-size: 48px;
+    line-height: 67px;
+    font-weight: 700;
+    font-family: PingFang SC,Helvetica,Arial,sans-serif;
+    color: #fff;
+    position: absolute;
+}
+.fbody{
+    width: 100%;
+}
+.fnews{
+    margin: auto;
+    margin-top:30px ;
+}
+.new{
+    display: flex;
+    width: 940px;
+    height: 198px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 58px;
+    position: relative;
+}
+.newimg{
+    width: 310px;
+    height: 100%;
+}
+.newimg .image{
+    height: 100%;
+
+}
+.tag{
+    margin: 0 0 0 36px;
+    padding-right: 30px;
+    height: 189px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.tag a{
+    color: #000000;
+}
+.pagedown{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 940px;
+    margin: 12px 0 0;
+}
+.pagedown1{
+    width: 76px;
+    color: #999;
+    display: inline-block;
+    height: 40px;
+    margin-left: 15px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+.pagedown2{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ff2741;
+    color: #fff;
+    border-color: #ff2741;
+}
+.fbottom{
+    zoom: 0.9;
+    font-family: PingFang SC,Helvetica,Arial,sans-serif;
+    padding-bottom: 30px;
+    position: relative;
+    padding-top: 50px;
+    background-color: #fbfbfb;
+    cursor: pointer;
+}
+.fbtitle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px;
+}
+.fbt{
+    width: 1080px;
+    margin: 0;
+    padding: 0 80px 0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+}
+.remark{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap
+
+}
+.fbt a{
+    color: black;
+}
+.fbt a:hover{
+    color: #ff2741;
+}
+.siteNavPannel{
+    width: 120px;
+    background-color: #FFFFFF;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    border-top: 20px;
+    position: absolute;
+    display: none;
+}
+.siteNavPannel dd{
+    width: 100%;
+    margin: auto;
+    margin-right: -1px;
+    white-space: nowrap;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 12px 30px;
+    cursor: pointer;
+
+}
+.siteNavPannel dd a{
+    color: #999;
+
+}
+.siteNavPannel dd a:hover{
+    color: red;
+    text-decoration: none;
+}
+.navTitlecss{
+    height: 200px;
+}
+

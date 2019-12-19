@@ -1,0 +1,262 @@
+html {
+    background-color: #fbfbfb
+}
+/*
+* {
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-callout: none;
+    -webkit-touch-callout: none
+}
+
+body {
+    font-size: 14px;
+    font-family: -apple-system, SF UI Text, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #fbfbfb
+}
+
+button {
+    margin-bottom: 0;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    background-image: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: background-color .3s ease-out, border-color .3s ease-out
+}*/
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+    color:white;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 20px;
+}
+/*首页导航栏css样式*/
+.dropdown-content{
+    /*隐藏业务合作*/
+    display: none;
+ }
+.drop-up-wrapper{
+    /*隐藏语言选项*/
+    background-color: white;
+    width: 130px ;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; /*上下居中*/
+    position: absolute;
+    border-radius:9px; /*边框圆角*/
+    right: 30px;
+    display: none;
+}
+.RED{
+    /*小红书图标*/
+    float: left;
+    width: 20%;
+    margin-left: 6%;
+}
+.bq{
+    /*标题栏*/
+    float: right;
+    width: 63%;
+    height: 100%;
+    margin-right: 2%;
+}
+.navigation-bar li{
+    /*
+    display: inline-block;*/
+    float: left;
+    display: inline; /*li不换行*/
+    list-style:none;
+    font-size:16px;
+    color: white;
+}
+.bq li {
+    /*li 标签之间的间距*/
+    margin-left: 6%;
+}
+
+.pc-wrapper{
+    /*整个大的div*/
+    width: 100%;
+    /*
+    border: 1px solid red;
+    padding: 30px;*/
+}
+
+.home-header{
+    /*头部导航栏*/
+    margin-top: 40px;
+    overflow: hidden;
+    clear: both;
+}
+.navigation-bar a{
+    /* a 标签并排*/
+    text-decoration: none;
+}
+.arrow{
+    /*语言选项图标*/
+    width: 9px;
+    height: 9px;
+    transform: rotate(90deg);
+}
+/*网站中间的部分*/
+.container{
+    overflow: hidden;
+    clear: both;
+    /*border: 1px solid red;*/
+}
+
+.description{
+    float:left;
+    width: 50%;
+    /*border: 1px solid yellow;*/
+    font-size: 12px;
+}
+.logo-big{
+    width: 143px;
+    height: 50px;
+    background-image: url(../image/blog.png);
+    background-size: contain;
+    margin-top: 20%;
+    margin-bottom: 1%;
+}
+.qrcodes{
+    overflow: hidden;
+    clear:  both;
+    /*border: 1px solid yellow;*/
+    margin-top: 5%;
+}
+.ios{
+    float: left;
+    background-color: white;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    line-height:30px;/*行高与div一样*/
+    border-radius:20px;
+    cursor:pointer;
+}
+.ios img{
+    display: none;
+}
+.android img{
+    display:  none;
+}
+.android {
+    float: left;
+    background-color: white;
+    width: 110px;
+    height: 30px;
+    margin-left: 2%;
+    text-align: center;
+    line-height:30px;/*行高与div一样*/
+    border-radius:20px;
+    cursor:pointer;
+}
+.iphone{
+
+    width: 200px;
+    height: 400px;
+    float: right;
+    margin-right: 8%;
+    margin-top: 7%;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    clear:  both;
+    position:relative;
+    display:inline-block;
+}
+.iphone-wrapper{
+    float: left;
+    width: 46%;
+    /*border: 1px solid yellowgreen;*/
+}
+.newmp4{
+    right: 5%;
+    bottom: 3%;
+    height: 95%;
+    width: 90%;
+    position: absolute;
+    z-index:-1;
+
+}
+.iphone-mp4{
+    width: 200px;
+    height: 400px;
+    background-image: url(../image/iPhone.png);/*1134  2256  */
+    background-size:  contain;
+    overflow: hidden;
+    clear:  both;
+}
+/*网站底部CSS样式*/
+.bottom {
+/*
+    position: fixed;
+    bottom: 4%;
+    */
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+.bottom a{
+    text-decoration: none;
+    color: #999;
+    font-size: 12px;
+}
+.line{
+    /*span样式*/
+    display: block; /*一个span标签独占一行*/
+    margin-top: 10px;
+}
+.top{
+    font-size: 14px;
+    padding: 20px;
+    width: 100%;
+}
+.top li{
+    margin-left: 310px;
+}
+.footer{
+    position: fixed;
+    bottom: 4%;
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    min-width: 100%;
+    /*border: 1px solid yellow;*/
+}
+.police{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../image/police.png);
+    background-size: 20px 20px;
+}
+.rank{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url(../image/rank.png);
+    background-size: 14px 14px;
+}
